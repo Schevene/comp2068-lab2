@@ -47,7 +47,7 @@ const exportLogic = (req, res) =>
     {
         return res.send(`
         Method must include one of the following:
-        ${options}`);
+        ${operations}`);
     }
 
     //Now that validation and logic are done,
