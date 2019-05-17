@@ -12,11 +12,12 @@ const calculations = (method, x, y) =>
         case 'divide':
             return {operation: '/', result: x / y};
         default:
-            return `Not a valid option. This calculatr can do:
+            return `Not a valid option. This calculator can do:
             Addition (method: add, +)
             Subtraction (method: subtract, -)
             Multiplication (method: multiply, *)
-            Division (method: divide, /)`    
+            Division (method: divide, /)
+            with two variables that must be numbers, x and y`    
     }
 };
 
